@@ -1,4 +1,4 @@
-package com.proEstimates.models;
+package com.ProEstimates.models;
 
 import java.sql.Timestamp;
 
@@ -31,6 +31,6 @@ public class Materials {
 	public void setMaterial_set_time(Timestamp material_set_time) {
 		this.material_set_time = material_set_time;
 	}
-	
-	
+
+
 }

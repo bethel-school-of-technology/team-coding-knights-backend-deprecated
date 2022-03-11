@@ -1,4 +1,4 @@
-package com.proEstimates.models;
+package com.ProEstimates.models;
 
 public class Roles {
 	private int user_id;
@@ -22,6 +22,6 @@ public class Roles {
 	public void setContractor(boolean isContractor) {
 		this.isContractor = isContractor;
 	}
-	
-	
+
+
 }

@@ -1,4 +1,4 @@
-package com.proEstimates.models;
+package com.ProEstimates.models;
 
 public class Quotes {
 	private int quote_id;
@@ -7,6 +7,12 @@ public class Quotes {
 	private int quote_measurement;
 	private int quote_price;
 	private String quote_material;
+	private String user_comments;
+	
+	
+	public void setUser_comments(String user_comments) {
+		this.user_comments = user_comments;
+	}
 	public int getQuote_id() {
 		return quote_id;
 	}
@@ -43,6 +49,9 @@ public class Quotes {
 	public void setQuote_material(String quote_material) {
 		this.quote_material = quote_material;
 	}
-	
-	
+	public String getUser_comments() {
+		return user_comments;
+	}
+
+
 }
