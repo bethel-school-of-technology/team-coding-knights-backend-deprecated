@@ -1,4 +1,4 @@
-package com.ProEstimates.controllers;
+package com.proEstimates.controllers;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

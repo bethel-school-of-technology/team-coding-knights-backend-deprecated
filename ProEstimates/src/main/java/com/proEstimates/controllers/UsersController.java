@@ -1,4 +1,4 @@
-package com.ProEstimates.controllers;
+package com.proEstimates.controllers;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.ProEstimates.models;
+package com.proEstimates.models;
 
 public class Quotes {
 	private int quote_id;

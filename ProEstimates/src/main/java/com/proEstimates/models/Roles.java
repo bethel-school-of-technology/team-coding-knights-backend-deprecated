@@ -1,4 +1,4 @@
-package com.ProEstimates.models;
+package com.proEstimates.models;
 
 public class Roles {
 	private int user_id;

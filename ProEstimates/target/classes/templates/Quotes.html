@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>Quotes Page</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <h1>Quotes</h1>
+    <div th:if="${!quotes.empty}">
+        <table>
+            <tr>
+                <th>Quote Id</th>
+                <th>User Id</th>
+                <th>Material Name</th>
+                <th>Quote Measurement</th>
+                <th>Quote Price</th>
+                <th>Quote Material</th>
+                <th>User Comments</th>
+            </tr>
+            <tr th:each="quotes : ${quotes}">
+                <td th:text="${quotes.quote_id}">Quote Id</td>
+                <td th:text="${quotes.user_id}">User Id</td>
+                <td th:text="${quotes.material_name}">Material Name</td>
+                <td th:text="${quotes.quote_measurement}">Quote Measurement</td>
+                <td th:text="${quotes.quote_price}">Quote Price</td>
+                <td th:text="${quotes.quote_material}">Quote Material</td>
+                <td th:text="${quotes.user_comments}">User Comments</td>
+
+            </tr>
+        </table>
+    </div>
+    <div th:if="${quotes.empty}">
+        <h3>No quotes found!</h3>
+    </div>
+</body>
+</html>

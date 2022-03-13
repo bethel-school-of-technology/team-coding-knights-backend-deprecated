@@ -1,4 +1,4 @@
-package com.ProEstimates.models;
+package com.proEstimates.models;
 
 
 import java.sql.Date;
